@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+:root {
+  --cedarville-cursive-regular: "Cedarville Cursive", cursive;
+}
+
+p,h1,h3{
+  font-family: var(--cedarville-cursive-regular);
+}
+P{
+    color:rgb(248, 213, 197);
+}
+
+img {
+    width: 120px;
+    border-radius: 100px;
+    margin-left: 85px;
+}
+
+li {
+    margin-left: 20px;
+}
+/* rgb(209, 167, 154)*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 201, 189);
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+}
+
+hr {
+    border: 1px solid rgb(233, 199, 183);
+    margin: 20px 0;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+#card {
+    background-color: rgb(180, 106, 101);
+    max-width: 350px;
+    width: 100%; 
+    height: fit-content;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 100px auto;
+}
+/* rgb(22, 6, 5)*/
+h1, h3, p{
+    text-align: center;
+}
+
+a {
+    display: block; 
+    margin-bottom: 10px; 
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(248, 213, 197);
+    background-color:  rgb(22, 6, 5);
+    font-weight: bold;
+    border-radius: 10px;
+    transition:0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(77, 12, 12);
+    color: rgb(209, 167, 154);
+}
